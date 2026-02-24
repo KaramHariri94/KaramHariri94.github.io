@@ -52,13 +52,32 @@ project_combat:
 ---
 
 <style>
+  /* --- 1. FULL WIDTH BREAKOUT LOGIC --- */
   .bio-wrapper {
     background-color: #121212;
     color: white !important;
-    padding: 50px 0;
+    padding: 80px 0; /* Vertical breathing room */
     margin-top: -2em;
+    
+    /* This 4-line combo forces the box to stretch edge-to-edge */
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
   }
 
+  /* --- 2. INNER CONTENT CONSTRAINT --- */
+  /* This ensures your text and image stay centered and don't touch the screen edges */
+  .bio-wrapper .feature__wrapper {
+    max-width: 1280px; /* Standard website width */
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  /* --- 3. PROFILE PICTURE (CIRCULAR) --- */
   .bio-wrapper .feature__item-teaser img {
     border-radius: 50% !important;
     width: 250px !important;
@@ -68,10 +87,11 @@ project_combat:
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
   }
 
+  /* --- 4. TECH STACK ICONS --- */
   .tech-stack {
     display: flex;
-    gap: 12px;
-    margin-top: 15px;
+    gap: 15px;
+    margin-top: 20px;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -83,11 +103,19 @@ project_combat:
     border: none !important;
     background: none !important;
     box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
+  /* --- 5. TEXT COLOR OVERRIDES --- */
   .bio-wrapper .feature__item-title, 
   .bio-wrapper .feature__item-excerpt {
     color: white !important;
+  }
+  
+  /* Remove default bottom margin from the bio row */
+  .bio-wrapper .feature__row {
+      margin-bottom: 0 !important;
   }
 </style>
 
