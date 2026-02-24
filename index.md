@@ -8,8 +8,8 @@ introduction:
     alt: "Karam Hariri"
     title: "About Me"
     excerpt: |
-      **Generalist Game Programmer | System Architect** <br />
-      I build robust tools and gameplay systems that help designers work faster.
+      I am a Generalist Engineer with a passion for System Architecture. I don't just implement features; I build the ecosystems they live in.<br />
+      My approach combines Modular AI that brings characters to life without tangling the codebase, Scalable Gameplay systems designed to grow from prototype to production, and custom Pipeline Tools that empower designers to iterate faster. I focus on writing clean, decoupled code that ensures the game is as fun to develop as it is to play.
       <br><br>
       **Skills & Tools:**<br>
       <div class="tech-stack">
@@ -52,7 +52,6 @@ project_combat:
 ---
 
 <style>
-  /* --- BIO SECTION WRAPPER --- */
   .bio-wrapper {
     background-color: #121212;
     color: white !important;
@@ -60,7 +59,6 @@ project_combat:
     margin-top: -2em;
   }
 
-  /* --- TARGET THE PROFILE PICTURE ONLY --- */
   .bio-wrapper .feature__item-teaser img {
     border-radius: 50% !important;
     width: 250px !important;
@@ -70,10 +68,9 @@ project_combat:
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
   }
 
-  /* --- TECH STACK ICONS (SQUARE & SMALL) --- */
   .tech-stack {
-    display: flex; /* Forces horizontal row */
-    gap: 12px;     /* Space between icons */
+    display: flex;
+    gap: 12px;
     margin-top: 15px;
     flex-wrap: wrap;
     align-items: center;
@@ -82,7 +79,7 @@ project_combat:
   .tech-stack img {
     width: 32px !important;  
     height: 32px !important;
-    border-radius: 0 !important; /* Forces icons to be square */
+    border-radius: 0 !important;
     border: none !important;
     background: none !important;
     box-shadow: none !important;
