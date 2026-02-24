@@ -29,36 +29,56 @@ introduction:
       </div>
 
 # PROJECT 1
-project_ai:
+project_Gracebound:
   - image_path: /assets/images/project1-thumb.jpg
-    alt: "Modular AI System"
-    title: "Modular AI System"
+    alt: "Gracebound"
+    title: "Gracebound"
     excerpt: |
-      A decoupled AI architecture using Behavior Trees. 
-      Built for high-performance agent management. <br />
-      ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
-      ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+      A 3D hack and slash game where the player fight swarm of enemies <br />
+      ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
+      ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+      
     url: "/projects/modular-ai-system/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
 
 # PROJECT 2
-project_combat:
-  - image_path: /assets/images/project2-thumb.jpg
-    alt: "Combat Prototype"
-    title: "Combat Prototype"
+#      ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
+#      ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+project_AmorExMachina:
+  - image_path: /assets/images/AmorExMachinaLogo.png
+    alt: "Amor Ex Machina"
+    title: "Amor Ex Machina"
     excerpt: |
-      Fast-paced melee combat system with hit-stop and camera shake. 
-      Focused on 3C (Character, Controls, Camera). <br />
+      Amor Ex Machina is a 3D stealth/puzzle game for PC in which you play as Gabriel, a robot with thoughts and emotions. Sneak, disable, and take over guards to make your way through a robot facility to save Gabriel's kidnapped partner. <br />
+      Amor Ex Machina is a vertical slice project done over the course of eight weeks by seven game design students studying at Uppsala University. <br />
       ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
       ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
     url: "/projects/combat-prototype/"
-    btn_label: "View Case Study"
+    btn_label: "More"
     btn_class: "btn--primary"
+
+    # PROJECT 3
+#      ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
+#      ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+project_CastByLight:
+  - image_path: /assets/images/CastByLightLogo.jpg
+    alt: "Cast By Light"
+    title: "Cast By Light"
+    excerpt: |
+      Control the light, to find your light. Cast By Light is a 2D single player puzzle game created for arcade and mobile. The player controls the sun with a rotating dial, creating shadows in the game to solve environmental puzzles to help the protagonist of the game Ann to find her lost partner in a grueling world where the sun is dangerous and the only way is to navigate through the shadows.<br />
+      ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
+      ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+    url: "/projects/combat-prototype/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+
+    
 ---
 
 <style>
   /* --- 1. RESET PAGE PADDING --- */
+  
   .page__content {
     padding-top: 0 !important;
   }
@@ -69,8 +89,8 @@ project_combat:
     color: white !important;
     
     /* CONTROL THE HEIGHT HERE */
-    padding-top: 50px;    /* Space above your photo */
-    padding-bottom: 20px; /* Space below your icons - REDUCED to stop it going too low */
+    padding-top: 50px;
+    padding-bottom: 15px;
     
     /* Add a clean grey line at the bottom of the black box */
     border-bottom: 1px solid #333; 
@@ -143,7 +163,11 @@ project_combat:
 <div id="projects" class="container">
   <h2 style="text-align: center; margin-top: 50px;">📂 Selected Projects</h2>
   
-  {% include feature_row id="project_ai" type="left" %}
+  {% include feature_row id="project_Gracebound" type="left" %}
   <hr>
-  {% include feature_row id="project_combat" type="right" %}
+  {% include feature_row id="project_AmorExMachina" type="right" %}
+   <hr>
+  {% include feature_row id="project_CastByLight" type="left" %}
 </div>
+
+
