@@ -205,7 +205,7 @@ project_CastByLight:
 </div>
 
 <div id="projects" class="container">
-  <h2 style="text-align: center; margin-top: 50px;">School Group Projects</h2>
+  <h2 style="text-align: center; margin-top: 50px;">School Projects</h2>
   
   {% include feature_row id="project_Gracebound" type="left" %}
   <hr>
