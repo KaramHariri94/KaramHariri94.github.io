@@ -23,9 +23,10 @@ gallery:
 
 <div class="video-container">
   <iframe 
-    src="https://www.youtube.com/watch?v=nVCMtpdZYTk" 
+    src="https://www.youtube.com/embed/nVCMtpdZYTk?playlist=nVCMtpdZYTK?playlist=nVCMtpdZYTK&loop=1&autoplay=1&mute=1&controls=1" 
+    title="YouTube video player"
     frameborder="0" 
-    allow="autoplay; encrypted-media" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
   </iframe>
 </div>

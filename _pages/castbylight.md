@@ -23,9 +23,10 @@ gallery:
 
 <div class="video-container">
   <iframe 
-    src="https://www.youtube.com/watch?v=BH-QS6EvlBg" 
+    src="https://www.youtube.com/embed/BH-QS6EvlBg?playlist=BH-QS6EvlBg&loop=1&autoplay=1&mute=1&controls=1"
+    title="Youtube video player"
     frameborder="0" 
-    allow="autoplay; encrypted-media" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" 
     allowfullscreen>
   </iframe>
 </div>
