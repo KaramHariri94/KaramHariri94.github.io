@@ -28,23 +28,35 @@ introduction:
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" title="Visual Studio" />
       </div>
 
+# ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
+# ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+# ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
+# ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+# <br><br>
+# <strong>Tech:</strong>
+# <div class="tech-stack">
+# <img src="https://cdn.simpleicons.org/unrealengine/000000" title="Unreal Engine" />
+# <img src="https://cdn.simpleicons.org/cplusplus/00599C" title="C++" />
+# </div>
+
 # PROJECT 1
 project_Gracebound:
   - image_path: /assets/images/project1-thumb.jpg
     alt: "Gracebound"
     title: "Gracebound"
     excerpt: |
-      A 3D hack and slash game where the player fight swarm of enemies <br />
-      ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
-      ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
-      
+      A fast-paced hack-and-slash where you fight to save the world, only to realize you were bringing its demise.<br />
+      <br><br>
+      <strong>Tech:</strong>
+      <div class="tech-stack">
+        <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
+      </div>
     url: "/projects/modular-ai-system/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
 
 # PROJECT 2
-#      ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
-#      ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 project_AmorExMachina:
   - image_path: /assets/images/AmorExMachinaLogo.png
     alt: "Amor Ex Machina"
@@ -52,23 +64,29 @@ project_AmorExMachina:
     excerpt: |
       Amor Ex Machina is a 3D stealth/puzzle game for PC in which you play as Gabriel, a robot with thoughts and emotions. Sneak, disable, and take over guards to make your way through a robot facility to save Gabriel's kidnapped partner. <br />
       Amor Ex Machina is a vertical slice project done over the course of eight weeks by seven game design students studying at Uppsala University. <br />
-      ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
-      ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+      <br><br>
+      <strong>Tech:</strong>
+      <div class="tech-stack">
+        <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
+      </div>
     url: "/projects/combat-prototype/"
     btn_label: "More"
     btn_class: "btn--primary"
 
     # PROJECT 3
-#      ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
-#      ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 project_CastByLight:
   - image_path: /assets/images/CastByLightLogo.jpg
     alt: "Cast By Light"
     title: "Cast By Light"
     excerpt: |
       Control the light, to find your light. Cast By Light is a 2D single player puzzle game created for arcade and mobile. The player controls the sun with a rotating dial, creating shadows in the game to solve environmental puzzles to help the protagonist of the game Ann to find her lost partner in a grueling world where the sun is dangerous and the only way is to navigate through the shadows.<br />
-      ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
-      ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+      <br><br>
+      <strong>Tech:</strong>
+      <div class="tech-stack">
+        <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
+      </div>
     url: "/projects/combat-prototype/"
     btn_label: "More"
     btn_class: "btn--primary"
