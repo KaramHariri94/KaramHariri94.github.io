@@ -9,8 +9,8 @@ header:
   # This puts your photo inside the dark section
   image_path: /assets/images/bio-photo.jpg 
   
-  title: "Karam Hariri"
-  excerpt: >
+  title: "About me"
+  excerpt: |
     **Generalist Game Programmer | System Architect** <br />
     I build robust tools and gameplay systems that help designers work faster.
     <br><br>
@@ -20,10 +20,6 @@ header:
     ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
     ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
   
-  actions:
-    - label: "View My Resume"
-      url: "/assets/resume.pdf"
-      btn_class: "btn--primary"
 
 # PROJECT 1
 project_ai:
