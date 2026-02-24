@@ -47,13 +47,12 @@ project_Gracebound:
     excerpt: |
       A fast-paced hack-and-slash where you fight to save the world, only to realize you were bringing its demise.<br />
       <br><br>
-      <strong>Tech:</strong>
       <div class="tech-stack">
         <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
       </div>
     url: "/projects/modular-ai-system/"
-    btn_label: "View Case Study"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
 
 # PROJECT 2
@@ -65,13 +64,12 @@ project_AmorExMachina:
       Amor Ex Machina is a 3D stealth/puzzle game for PC in which you play as Gabriel, a robot with thoughts and emotions. Sneak, disable, and take over guards to make your way through a robot facility to save Gabriel's kidnapped partner. <br />
       Amor Ex Machina is a vertical slice project done over the course of eight weeks by seven game design students studying at Uppsala University. <br />
       <br><br>
-      <strong>Tech:</strong>
       <div class="tech-stack">
         <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
       </div>
     url: "/projects/combat-prototype/"
-    btn_label: "More"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
 
     # PROJECT 3
@@ -82,13 +80,12 @@ project_CastByLight:
     excerpt: |
       Control the light, to find your light. Cast By Light is a 2D single player puzzle game created for arcade and mobile. The player controls the sun with a rotating dial, creating shadows in the game to solve environmental puzzles to help the protagonist of the game Ann to find her lost partner in a grueling world where the sun is dangerous and the only way is to navigate through the shadows.<br />
       <br><br>
-      <strong>Tech:</strong>
       <div class="tech-stack">
         <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
       </div>
     url: "/projects/combat-prototype/"
-    btn_label: "More"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
 
     
@@ -108,7 +105,7 @@ project_CastByLight:
     
     /* CONTROL THE HEIGHT HERE */
     padding-top: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     
     /* Add a clean grey line at the bottom of the black box */
     border-bottom: 1px solid #333; 
@@ -172,6 +169,15 @@ project_CastByLight:
       margin-bottom: 0 !important;
       border-bottom: none !important; /* Removes any double lines */
   }
+
+  .page__footer-follow a[href*="feed"],
+  .page__footer-follow a[href*=".xml"],
+  .fa-rss-square {
+    display: none !important;
+  }
+  .page__footer-copyright {
+    display: none !important;
+  }
 </style>
 
 <div class="bio-wrapper">
@@ -179,7 +185,7 @@ project_CastByLight:
 </div>
 
 <div id="projects" class="container">
-  <h2 style="text-align: center; margin-top: 50px;">📂 Selected Projects</h2>
+  <h2 style="text-align: center; margin-top: 50px;">School Group Projects</h2>
   
   {% include feature_row id="project_Gracebound" type="left" %}
   <hr>
