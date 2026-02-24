@@ -35,7 +35,7 @@ Camera Occlusion & Animation I implemented a raycast-based occlusion system that
 
 <br>
 
-## 📸 Gallery
+## Gallery
 
 {% include gallery caption="Screenshots from Gracebound" %}
 

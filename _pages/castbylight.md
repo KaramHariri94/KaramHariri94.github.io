@@ -49,7 +49,7 @@ Moreover, I implemented Scene Management system to handle level loading, unloadi
 
 <br>
 
-## 📸 Gallery
+## Gallery
 
 {% include gallery caption="Screenshots from CastByLight" %}
 

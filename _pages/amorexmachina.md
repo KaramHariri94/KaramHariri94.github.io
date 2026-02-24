@@ -54,7 +54,7 @@ Technical Art (Shaders & Lighting): I contributed to the visual fidelity of the 
 
 <br>
 
-## 📸 Gallery
+## Gallery
 
 {% include gallery caption="Screenshots from AmorExMachina" %}
 

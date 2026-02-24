@@ -143,6 +143,7 @@ project_CastByLight:
     display: flex;
     gap: 15px;
     margin-top: 20px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -191,6 +192,10 @@ project_CastByLight:
     margin: 0 auto !important;
     padding: 0 !important;
     float: none !important; /* Removes any default left-alignment */
+  }
+
+  .search-toggle, .search-content {
+    display: none !important;
   }
 
 </style>
