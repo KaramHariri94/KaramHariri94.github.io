@@ -21,6 +21,12 @@ gallery:
     alt: "Gameplay Moment 3"
 ---
 
+<a href="/" class="btn-back">
+  <i class="fas fa-arrow-left"></i> Back
+</a>
+
+<br>
+
 <br>
 
 ## What I Worked On
@@ -65,4 +71,39 @@ Camera Occlusion & Animation I implemented a raycast-based occlusion system that
     border-bottom: 2px solid #1DE9B6;
     padding-bottom: 10px;
   }
+
+  .btn-back {
+    position: fixed; /* Stick to the screen even when scrolling */
+    top: 20px;
+    left: 20px;
+    background-color: rgba(18, 18, 18, 0.8); /* Dark semi-transparent */
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 30px; /* Pill shape */
+    text-decoration: none !important;
+    z-index: 9999; /* Sit on top of everything */
+    border: 1px solid #333;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px); /* Nice blur effect behind it */
+  }
+
+  /* Hover Effect: Turns Teal */
+  .btn-back:hover {
+    background-color: #1DE9B6; 
+    color: #000 !important;
+    border-color: #1DE9B6;
+    transform: translateX(-3px); /* Small nudge animation */
+  }
+
+  /* Hide on mobile if it covers too much screen */
+  @media (max-width: 768px) {
+    .btn-back {
+      top: 10px;
+      left: 10px;
+      padding: 8px 15px;
+      font-size: 0.9em;
+    }
+  }
+
 </style>
