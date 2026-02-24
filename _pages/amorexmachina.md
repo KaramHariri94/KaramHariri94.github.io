@@ -83,38 +83,37 @@ Technical Art (Shaders & Lighting): I contributed to the visual fidelity of the 
     height: 100%;
   }
 
-  /* Optional: Make the headers pop a bit more */
+  /* Headers Styling */
   h2 {
     border-bottom: 2px solid #1DE9B6;
     padding-bottom: 10px;
   }
 
+  /* Back Button Styling */
   .btn-back {
-    position: fixed; /* Stick to the screen even when scrolling */
-    top: 80px;
+    position: fixed; 
+    top: 100px; /* Moves it down so it doesn't overlap the header */
     left: 20px;
-    background-color: rgba(18, 18, 18, 0.8); /* Dark semi-transparent */
+    background-color: rgba(18, 18, 18, 0.8); 
     color: #fff !important;
     padding: 10px 20px;
-    border-radius: 30px; /* Pill shape */
+    border-radius: 30px; 
     text-decoration: none !important;
-    z-index: 9999; /* Sit on top of everything */
+    z-index: 99999 !important; /* Force on top */
     border: 1px solid #333;
     font-weight: bold;
     transition: all 0.3s ease;
-    backdrop-filter: blur(5px); /* Nice blur effect behind it */
-    z-index: 99999 !important;
+    backdrop-filter: blur(5px);
   }
 
-  /* Hover Effect: Turns Teal */
   .btn-back:hover {
     background-color: #1DE9B6; 
     color: #000 !important;
     border-color: #1DE9B6;
-    transform: translateX(-3px); /* Small nudge animation */
+    transform: translateX(-3px); 
   }
 
-  /* Hide on mobile if it covers too much screen */
+  /* --- MOBILE SPECIFIC STYLES --- */
   @media (max-width: 768px) {
     .btn-back {
       top: 10px;
@@ -122,19 +121,19 @@ Technical Art (Shaders & Lighting): I contributed to the visual fidelity of the 
       padding: 8px 15px;
       font-size: 0.9em;
     }
+  } /* <--- THIS BRACKET WAS IN THE WRONG PLACE BEFORE! */
 
-    .page__footer-follow a[href*="feed"],
+  /* --- GLOBAL FOOTER STYLES (Apply to Desktop AND Mobile) --- */
+  .page__footer-follow a[href*="feed"],
   .page__footer-follow a[href*=".xml"],
   .fa-rss-square {
     display: none !important;
   }
 
-  /* 2. Hide the Copyright text */
   .page__footer-copyright {
     display: none !important;
   }
 
-  /* 3. Center the Icons */
   .page__footer-follow {
     text-align: center !important;
     display: block !important;
@@ -146,6 +145,5 @@ Technical Art (Shaders & Lighting): I contributed to the visual fidelity of the 
     margin: 0 auto !important;
     padding: 0 !important;
     float: none !important;
-  }
   }
 </style>
