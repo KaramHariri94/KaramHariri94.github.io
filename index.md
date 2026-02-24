@@ -51,7 +51,7 @@ project_Gracebound:
         <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
       </div>
-    url: "/projects/modular-ai-system/"
+    url: "/projects/gracebound/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
 
@@ -68,7 +68,7 @@ project_AmorExMachina:
         <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
       </div>
-    url: "/projects/combat-prototype/"
+    url: "/projects/amorexmachina/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
 
@@ -84,7 +84,7 @@ project_CastByLight:
         <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
       </div>
-    url: "/projects/combat-prototype/"
+    url: "/projects/castbylight/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
 
@@ -192,7 +192,7 @@ project_CastByLight:
     padding: 0 !important;
     float: none !important; /* Removes any default left-alignment */
   }
-  
+
 </style>
 
 <div class="bio-wrapper">
