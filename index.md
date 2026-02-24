@@ -51,15 +51,26 @@ project_combat:
 
 ---
 
+<style>
+  /* Targets the image in the top bio section */
+  .header-content-wrapper img, 
+  .archive__item-teaser img {
+    border-radius: 50%;
+    width: 250px; /* Adjust size if needed */
+    height: 250px;
+    object-fit: cover; /* Prevents stretching if the photo isn't a perfect square */
+    border: 3px solid #1DE9B6; /* Optional: adds a teal ring around your photo */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  }
+  <style>
+
+<div class="header-content-wrapper" style="background: #121212; padding: 40px 0;">
+  {% include feature_row id="introduction" type="left" %}
+</div>
+
 <div id="projects"></div>
 <h2 style="text-align: center; margin-top: 50px;">📂 Selected Projects</h2>
 
 {% include feature_row id="project_ai" type="left" %}
-
-<hr> {% include feature_row id="project_combat" type="right" %}
-
 <hr>
-
-<div id="contact"></div>
-## 📬 Contact
-{% include feature_row id="contact_row" %}
+{% include feature_row id="project_combat" type="right" %}
