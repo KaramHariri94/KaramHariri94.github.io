@@ -1,16 +1,20 @@
 ---
-# Jekyll Front Matter
+# Front Matter
 ---
 
-@import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
-/* Simple teal overrides */
+/* Manual Teal Accents */
 a {
-  color: #1DE9B6;
+  color: #1DE9B6 !important;
 }
 
 .btn--primary {
-  background-color: #1DE9B6 !important;
+  background-color: #D500F9 !important;
+  border-color: #D500F9 !important;
   color: #000 !important;
+}
+
+.nav__list .active {
+  color: #1DE9B6 !important;
 }
