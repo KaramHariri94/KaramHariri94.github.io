@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 
 introduction:
-  - image_path: /assets/images/Image2.png
+  - image_path: /assets/images/ProfilePicture1.png
     alt: "Karam Hariri"
     title: "About Me"
     excerpt: |
@@ -178,6 +178,21 @@ project_CastByLight:
   .page__footer-copyright {
     display: none !important;
   }
+
+  .page__footer-follow {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+  }
+
+  /* Ensure the list inside behaves correctly */
+  .page__footer-follow ul.social-icons {
+    display: inline-block !important; /* Keeps the list tight so it can be centered */
+    margin: 0 auto !important;
+    padding: 0 !important;
+    float: none !important; /* Removes any default left-alignment */
+  }
+  
 </style>
 
 <div class="bio-wrapper">
