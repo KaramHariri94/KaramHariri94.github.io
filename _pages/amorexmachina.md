@@ -10,25 +10,34 @@ toc_icon: "gamepad"
 # --- GALLERY CONFIGURATION ---
 # Add your screenshots here. They will appear at the bottom.
 gallery:
-  - url: /assets/images/project2-thumb.jpg
-    image_path: /assets/images/project2-thumb.jpg
+  - url: /assets/images/amorexmachinascreenshot1.png
+    image_path: /assets/images/amorexmachinascreenshot1.png
     alt: "Gameplay Moment 1"
-  - url: /assets/images/project2-thumb.jpg
-    image_path: /assets/images/project2-thumb.jpg
+  - url: /assets/images/amorexmachinascreenshot2.png
+    image_path: /assets/images/amorexmachinascreenshot2.png
     alt: "Gameplay Moment 2"
-  - url: /assets/images/project2-thumb.jpg
-    image_path: /assets/images/project2-thumb.jpg
+  - url: /assets/images/amorexmachinascreenshot3.png
+    image_path: /assets/images/amorexmachinascreenshot3.png
     alt: "Gameplay Moment 3"
+  - url: /assets/images/amorexmachinascreenshot4.png
+    image_path: /assets/images/amorexmachinascreenshot4.png
+    alt: "Gameplay Moment 4"
 ---
 
 <div class="video-container">
   <iframe 
-    src="https://www.youtube.com/embed/nVCMtpdZYTk?playlist=nVCMtpdZYTK?playlist=nVCMtpdZYTK&loop=1&autoplay=1&mute=1&controls=1" 
+    src="https://www.youtube.com/embed/nVCMtpdZYTk?playlist=nVCMtpdZYTK&loop=1&autoplay=1&mute=1&controls=1" 
     title="YouTube video player"
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
   </iframe>
+</div>
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 30px;">
+  <a href="https://amor-ex-machina.itch.io/" class="btn btn--primary btn--large" target="_blank">
+    <i class="fab fa-itch-io"></i> Play on Itch.io
+  </a>
 </div>
 
 <br>

@@ -10,15 +10,18 @@ toc_icon: "gamepad"
 # --- GALLERY CONFIGURATION ---
 # Add your screenshots here. They will appear at the bottom.
 gallery:
-  - url: /assets/images/project3-thumb.jpg
-    image_path: /assets/images/project3-thumb.jpg
+  - url: /assets/images/castbylightscreenshot1.png
+    image_path: /assets/images/castbylightscreenshot1.png
     alt: "Gameplay Moment 1"
-  - url: /assets/images/project3-thumb.jpg
-    image_path: /assets/images/project3-thumb.jpg
+  - url: /assets/images/castbylightscreenshot2.png
+    image_path: /assets/images/castbylightscreenshot2.png
     alt: "Gameplay Moment 2"
-  - url: /assets/images/project3-thumb.jpg
-    image_path: /assets/images/project3-thumb.jpg
-    alt: "Gameplay Moment 3"
+  - url: /assets/images/castbylightscreenshot4.jpg
+    image_path: /assets/images/castbylightscreenshot4.jpg
+    alt: "Arcade"
+  - url: /assets/images/Castbylight.JPG
+    image_path: /assets/images/Castbylight.JPG
+    alt: "Award"
 ---
 
 <div class="video-container">
