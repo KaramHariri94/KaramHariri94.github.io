@@ -16,12 +16,13 @@ gallery:
   - url: /assets/images/castbylightscreenshot2.png
     image_path: /assets/images/castbylightscreenshot2.png
     alt: "Gameplay Moment 2"
-  - url: /assets/images/castbylightscreenshot4.jpg
-    image_path: /assets/images/castbylightscreenshot4.jpg
-    alt: "Arcade"
   - url: /assets/images/Castbylight.JPG
     image_path: /assets/images/Castbylight.JPG
     alt: "Award"
+  - url: /assets/images/castbylightscreenshot4.jpg
+    image_path: /assets/images/castbylightscreenshot4.jpg
+    alt: "Arcade"
+  
 ---
 
 <div class="video-container">
