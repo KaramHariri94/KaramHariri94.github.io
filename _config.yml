@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: "Karam's Portfolio"
+name: "Karam Hariri"
+email: "Karam.hariri@outlook.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Generalist Game Programmer focused on System Architecture, AI, Gameplay, and Tools.
+twitter_username: 
+github_username: "KaramHariri94"
+minimal_mistakes_skin: "dark"
 search: true
+url: "https://KaramHariri.github.io"
 
 # Build settings
 markdown: kramdown
@@ -31,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Europe/Stockholm"
 
 include:
   - _pages
@@ -56,36 +56,43 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 author:
-  name   : "First Lastname"
+  name   : "Karam Hariri"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Generalist Game Programmer focused on System Architecture, AI, Gameplay, and Tools"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/KaramHariri94"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/karam-hariri-686578227/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:karam.hariri@outlook.com"
+   # - label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+     # url: "https://instagram.com/"
+      # - label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://"
+    #- label: "Twitter"
+     # icon: "fab fa-fw fa-twitter-square"
+     # url: "https://twitter.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/KaramHariri94"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/karam-hariri-686578227/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:karam.hariri@outlook.com"
 
 defaults:
   # _posts
@@ -96,7 +103,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
