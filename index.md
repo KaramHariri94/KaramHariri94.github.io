@@ -30,7 +30,7 @@ project_ai:
   - image_path: /assets/images/project1-thumb.jpg
     alt: "Modular AI System"
     title: "Modular AI System"
-    excerpt: >
+    excerpt: |
       A decoupled AI architecture using Behavior Trees. 
       Built for high-performance agent management. <br />
       ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
@@ -44,7 +44,7 @@ project_combat:
   - image_path: /assets/images/project2-thumb.jpg
     alt: "Combat Prototype"
     title: "Combat Prototype"
-    excerpt: >
+    excerpt: |
       Fast-paced melee combat system with hit-stop and camera shake. 
       Focused on 3C (Character, Controls, Camera). <br />
       ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
@@ -52,7 +52,6 @@ project_combat:
     url: "/projects/combat-prototype/"
     btn_label: "View Case Study"
     btn_class: "btn--primary"
-
 ---
 
 <style>
@@ -65,7 +64,6 @@ project_combat:
   }
 
   /* --- TARGET THE PROFILE PICTURE ONLY --- */
-  /* This ensures the profile pic is a circle with the teal ring */
   .bio-wrapper .feature__item-teaser img {
     border-radius: 50% !important;
     width: 250px !important;
@@ -84,11 +82,10 @@ project_combat:
     align-items: center;
   }
 
-  /* This overrides the circular rule specifically for the icons */
   .tech-stack img {
     width: 32px !important;  
     height: 32px !important;
-    border-radius: 0 !important; /* Forces them to stay square */
+    border-radius: 0 !important; 
     border: none !important;
     background: none !important;
     box-shadow: none !important;
@@ -101,3 +98,15 @@ project_combat:
     color: white !important;
   }
 </style>
+
+<div class="bio-wrapper">
+  {% include feature_row id="introduction" type="left" %}
+</div>
+
+<div id="projects" class="container">
+  <h2 style="text-align: center; margin-top: 50px;">📂 Selected Projects</h2>
+  
+  {% include feature_row id="project_ai" type="left" %}
+  <hr>
+  {% include feature_row id="project_combat" type="right" %}
+</div>
