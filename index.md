@@ -11,11 +11,19 @@ introduction:
       **Generalist Game Programmer | System Architect** <br />
       I build robust tools and gameplay systems that help designers work faster.
       <br><br>
-      **Tech Stack:**<br>
-      ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-      ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
-      ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
-      ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
+      **Skills & Tools:**<br>
+      <div class="tech-stack">
+        <img src="https://cdn.simpleicons.org/unrealengine/white" title="Unreal Engine" />
+        <img src="https://cdn.simpleicons.org/unity/white" title="Unity" />
+        <img src="https://cdn.simpleicons.org/cplusplus/00599C" title="C++" />
+        <img src="https://cdn.simpleicons.org/csharp/239120" title="C#" />
+        <img src="https://cdn.simpleicons.org/perforce/00B0E8" title="Perforce Helix" />
+        <img src="https://cdn.simpleicons.org/git/F05032" title="Git" />
+        <img src="https://cdn.simpleicons.org/visualstudio/5C2D91" title="Visual Studio" />
+      </div>
+    btn_label: "View My Resume"
+    btn_url: "/assets/resume.pdf"
+    btn_class: "btn--primary"
 
 # PROJECT 1
 project_ai:
@@ -48,38 +56,48 @@ project_combat:
 ---
 
 <style>
-  /* This makes the top section dark */
+  /* --- BIO SECTION WRAPPER --- */
   .bio-wrapper {
     background-color: #121212;
     color: white !important;
-    padding: 60px 0;
-    margin-top: -2em; /* Removes gap at top */
+    padding: 50px 0;
+    margin-top: -2em;
   }
-  
-  /* Forces circular image */
-  .bio-wrapper img {
+
+  /* --- TARGET THE PROFILE PICTURE ONLY --- */
+  /* This ensures the profile pic is a circle with the teal ring */
+  .bio-wrapper .feature__item-teaser img {
     border-radius: 50% !important;
     width: 250px !important;
     height: 250px !important;
     object-fit: cover;
     border: 3px solid #1DE9B6;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
   }
 
-  /* Ensures text is white in dark section */
+  /* --- TECH STACK ICONS (SQUARE & SMALL) --- */
+  .tech-stack {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* This overrides the circular rule specifically for the icons */
+  .tech-stack img {
+    width: 32px !important;  
+    height: 32px !important;
+    border-radius: 0 !important; /* Forces them to stay square */
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   .bio-wrapper .feature__item-title, 
   .bio-wrapper .feature__item-excerpt {
     color: white !important;
   }
 </style>
-
-<div class="bio-wrapper">
-  {% include feature_row id="introduction" type="left" %}
-</div>
-
-<div id="projects" class="container">
-  <h2 style="text-align: center; margin-top: 50px;">📂 Selected Projects</h2>
-  
-  {% include feature_row id="project_ai" type="left" %}
-  <hr>
-  {% include feature_row id="project_combat" type="right" %}
-</div>
