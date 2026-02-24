@@ -18,12 +18,9 @@ introduction:
         <img src="https://cdn.simpleicons.org/cplusplus/00599C" title="C++" />
         <img src="https://cdn.simpleicons.org/csharp/239120" title="C#" />
         <img src="https://cdn.simpleicons.org/perforce/00B0E8" title="Perforce Helix" />
-        <img src="https://cdn.simpleicons.org/git/F05032" title="Git" />
+        <img src="https://cdn.simpleicons.org/github/white" title="GitHub" />
         <img src="https://cdn.simpleicons.org/visualstudio/5C2D91" title="Visual Studio" />
       </div>
-    btn_label: "View My Resume"
-    btn_url: "/assets/resume.pdf"
-    btn_class: "btn--primary"
 
 # PROJECT 1
 project_ai:
@@ -75,8 +72,8 @@ project_combat:
 
   /* --- TECH STACK ICONS (SQUARE & SMALL) --- */
   .tech-stack {
-    display: flex;
-    gap: 12px;
+    display: flex; /* Forces horizontal row */
+    gap: 12px;     /* Space between icons */
     margin-top: 15px;
     flex-wrap: wrap;
     align-items: center;
@@ -85,12 +82,10 @@ project_combat:
   .tech-stack img {
     width: 32px !important;  
     height: 32px !important;
-    border-radius: 0 !important; 
+    border-radius: 0 !important; /* Forces icons to be square */
     border: none !important;
     background: none !important;
     box-shadow: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
   }
 
   .bio-wrapper .feature__item-title, 
