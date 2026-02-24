@@ -75,7 +75,7 @@ Camera Occlusion & Animation I implemented a raycast-based occlusion system that
   /* Back Button Desktop Styles */
   .btn-back {
     position: fixed; 
-    top: 80px; /* Aligned with other pages */
+    top: 100px; /* Aligned with other pages */
     left: 20px;
     background-color: rgba(18, 18, 18, 0.8); 
     color: #fff !important;
