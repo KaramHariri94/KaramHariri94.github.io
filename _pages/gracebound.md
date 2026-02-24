@@ -74,7 +74,7 @@ Camera Occlusion & Animation I implemented a raycast-based occlusion system that
 
   .btn-back {
     position: fixed; /* Stick to the screen even when scrolling */
-    top: 20px;
+    top: 80px;
     left: 20px;
     background-color: rgba(18, 18, 18, 0.8); /* Dark semi-transparent */
     color: #fff !important;
@@ -86,6 +86,7 @@ Camera Occlusion & Animation I implemented a raycast-based occlusion system that
     font-weight: bold;
     transition: all 0.3s ease;
     backdrop-filter: blur(5px); /* Nice blur effect behind it */
+    z-index: 99999 !important;
   }
 
   /* Hover Effect: Turns Teal */
