@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 
 introduction:
-  - image_path: /assets/images/bio-photo.jpg 
+  - image_path: /assets/images/Image1.png
     alt: "Karam Hariri"
     title: "About Me"
     excerpt: |
