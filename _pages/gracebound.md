@@ -105,6 +105,31 @@ Camera Occlusion & Animation I implemented a raycast-based occlusion system that
       padding: 8px 15px;
       font-size: 0.9em;
     }
+
+    .page__footer-follow a[href*="feed"],
+  .page__footer-follow a[href*=".xml"],
+  .fa-rss-square {
+    display: none !important;
+  }
+
+  /* 2. Hide the Copyright text */
+  .page__footer-copyright {
+    display: none !important;
+  }
+
+  /* 3. Center the Icons */
+  .page__footer-follow {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .page__footer-follow ul.social-icons {
+    display: inline-block !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    float: none !important;
+  }
   }
 
 </style>
