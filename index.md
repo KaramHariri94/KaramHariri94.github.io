@@ -52,32 +52,40 @@ project_combat:
 ---
 
 <style>
-  /* --- 1. FULL WIDTH BREAKOUT LOGIC --- */
+  /* --- 1. RESET PAGE PADDING --- */
+  /* This removes the white gap between the top line (nav) and your bio */
+  .page__content {
+    padding-top: 0 !important;
+  }
+
+  /* --- 2. BIO SECTION (THE BLACK BOX) --- */
   .bio-wrapper {
     background-color: #121212;
     color: white !important;
-    padding: 80px 0; /* Vertical breathing room */
-    margin-top: -2em;
+    padding: 60px 0; /* Vertical breathing room */
     
-    /* This 4-line combo forces the box to stretch edge-to-edge */
+    /* BREAKOUT LOGIC: Makes the background go edge-to-edge horizontally */
     width: 100vw;
     position: relative;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+    
+    /* NO NEGATIVE MARGIN: This stops it from going "up" into the tabs */
+    margin-top: 0; 
   }
 
-  /* --- 2. INNER CONTENT CONSTRAINT --- */
-  /* This ensures your text and image stay centered and don't touch the screen edges */
+  /* --- 3. INNER CONTENT CONSTRAINT --- */
+  /* Keeps your text and face centered, not stretched to the edges */
   .bio-wrapper .feature__wrapper {
-    max-width: 1280px; /* Standard website width */
+    max-width: 1280px; 
     margin: 0 auto;
     padding-left: 2em;
     padding-right: 2em;
   }
 
-  /* --- 3. PROFILE PICTURE (CIRCULAR) --- */
+  /* --- 4. PROFILE PICTURE --- */
   .bio-wrapper .feature__item-teaser img {
     border-radius: 50% !important;
     width: 250px !important;
@@ -87,7 +95,7 @@ project_combat:
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
   }
 
-  /* --- 4. TECH STACK ICONS --- */
+  /* --- 5. TECH STACK ICONS --- */
   .tech-stack {
     display: flex;
     gap: 15px;
@@ -107,13 +115,13 @@ project_combat:
     margin: 0 !important;
   }
 
-  /* --- 5. TEXT COLOR OVERRIDES --- */
+  /* --- 6. TEXT COLOR OVERRIDES --- */
   .bio-wrapper .feature__item-title, 
   .bio-wrapper .feature__item-excerpt {
     color: white !important;
   }
   
-  /* Remove default bottom margin from the bio row */
+  /* Remove default bottom margin from the bio row to stop it pushing down too far */
   .bio-wrapper .feature__row {
       margin-bottom: 0 !important;
   }
