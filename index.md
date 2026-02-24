@@ -2,24 +2,20 @@
 layout: splash
 permalink: /
 hidden: true
-header:
-  overlay_color: "#121212"  # Your professional dark background
-  overlay_filter: 0.5
-  
-  # This puts your photo inside the dark section
-  image_path: /assets/images/bio-photo.jpg 
-  
-  title: "About me"
-  excerpt: |
-    **Generalist Game Programmer | System Architect** <br />
-    I build robust tools and gameplay systems that help designers work faster.
-    <br><br>
-    **Tech Stack:**<br>
-    ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-    ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
-    ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
-    ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
-  
+
+introduction:
+  - image_path: /assets/images/bio-photo.jpg 
+    alt: "Karam Hariri"
+    title: "About Me"
+    excerpt: |
+      **Generalist Game Programmer | System Architect** <br />
+      I build robust tools and gameplay systems that help designers work faster.
+      <br><br>
+      **Tech Stack:**<br>
+      ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+      ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+      ![Unity](https://img.shields.io/badge/-Unity-100000?style=flat&logo=unity&logoColor=white)
+      ![Unreal](https://img.shields.io/badge/-Unreal-313131?style=flat&logo=unreal-engine&logoColor=white)
 
 # PROJECT 1
 project_ai:
@@ -52,25 +48,38 @@ project_combat:
 ---
 
 <style>
-  /* Targets the image in the top bio section */
-  .header-content-wrapper img, 
-  .archive__item-teaser img {
-    border-radius: 50%;
-    width: 250px; /* Adjust size if needed */
-    height: 250px;
-    object-fit: cover; /* Prevents stretching if the photo isn't a perfect square */
-    border: 3px solid #1DE9B6; /* Optional: adds a teal ring around your photo */
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  /* This makes the top section dark */
+  .bio-wrapper {
+    background-color: #121212;
+    color: white !important;
+    padding: 60px 0;
+    margin-top: -2em; /* Removes gap at top */
   }
-  <style>
+  
+  /* Forces circular image */
+  .bio-wrapper img {
+    border-radius: 50% !important;
+    width: 250px !important;
+    height: 250px !important;
+    object-fit: cover;
+    border: 3px solid #1DE9B6;
+  }
 
-<div class="header-content-wrapper" style="background: #121212; padding: 40px 0;">
+  /* Ensures text is white in dark section */
+  .bio-wrapper .feature__item-title, 
+  .bio-wrapper .feature__item-excerpt {
+    color: white !important;
+  }
+</style>
+
+<div class="bio-wrapper">
   {% include feature_row id="introduction" type="left" %}
 </div>
 
-<div id="projects"></div>
-<h2 style="text-align: center; margin-top: 50px;">📂 Selected Projects</h2>
-
-{% include feature_row id="project_ai" type="left" %}
-<hr>
-{% include feature_row id="project_combat" type="right" %}
+<div id="projects" class="container">
+  <h2 style="text-align: center; margin-top: 50px;">📂 Selected Projects</h2>
+  
+  {% include feature_row id="project_ai" type="left" %}
+  <hr>
+  {% include feature_row id="project_combat" type="right" %}
+</div>
