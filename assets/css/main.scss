@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// 1. CHOOSE YOUR ACCENT COLOR HERE
+// ---------------------------------
+// Teal (Architect):   #1DE9B6
+// Blue (Engine):      #2979FF
+// Purple (Creative):  #D500F9
+// Orange (Debug):     #FF9100
+
+$theme-color: #1DE9B6; /* <--- PASTE YOUR CHOSEN HEX CODE HERE */
+
+// 2. Import the rest of the theme
+@import "minimal-mistakes";
