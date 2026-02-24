@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 
 introduction:
-  - image_path: /assets/images/ProfilePicture1.png
+  - image_path: /assets/images/ProfilePicture1.jpg
     alt: "Karam Hariri"
     title: "About Me"
     excerpt: |
@@ -41,7 +41,7 @@ introduction:
 
 # PROJECT 1
 project_Gracebound:
-  - image_path: /assets/images/project1-thumb.jpg
+  - image_path: /assets/images/GraceboundPoster.jpg
     alt: "Gracebound"
     title: "Gracebound"
     excerpt: |
@@ -78,7 +78,7 @@ project_CastByLight:
     alt: "Cast By Light"
     title: "Cast By Light"
     excerpt: |
-      Control the light, to find your light. Cast By Light is a 2D single player puzzle game created for arcade and mobile. The player controls the sun with a rotating dial, creating shadows in the game to solve environmental puzzles to help the protagonist of the game Ann to find her lost partner in a grueling world where the sun is dangerous and the only way is to navigate through the shadows.<br />
+      Control the light, to find your light. Cast By Light is a 2D single player puzzle platformer game created for arcade and mobile. The player controls the sun with a rotating dial, creating shadows in the game to solve environmental puzzles to help the protagonist of the game Ann to find her lost partner in a grueling world where the sun is dangerous and the only way is to navigate through the shadows.<br />
       <br><br>
       <div class="tech-stack">
         <img src="https://cdn.simpleicons.org/unity/000000" title="Unity" />
