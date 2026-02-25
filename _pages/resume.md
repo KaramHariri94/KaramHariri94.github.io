@@ -9,12 +9,6 @@ author_profile: false
   <i class="fas fa-arrow-left"></i> Back
 </a>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <a href="/assets/images/karam-hariri_CV.pdf" class="btn btn--primary btn--large">
-    <i class="fas fa-file-download"></i> Download Official PDF
-  </a>
-</div>
-
 <div class="resume-image-container">
   <img src="/assets/images/Karam_Hariri_CV.png" alt="Karam Hariri Resume" style="width: 100%; border-radius: 4px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
 </div>
