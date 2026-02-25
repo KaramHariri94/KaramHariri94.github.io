@@ -9,32 +9,32 @@ author_profile: false
   <i class="fas fa-arrow-left"></i> Back
 </a>
 
-<div class="resume-container">
-  <iframe 
-    src="/assets/images/karam-hariri_CV.pdf" 
-    width="100%" 
-    height="1000px" 
-    style="border: none; border-radius: 8px; box-shadow: 0 0 20px rgba(0,0,0,0.2);">
-  </iframe>
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="/assets/images/karam-hariri_CV.pdf" class="btn btn--primary btn--large">
+    <i class="fas fa-file-download"></i> Download Official PDF
+  </a>
 </div>
 
-<div style="text-align: center; margin-top: 30px;">
-  <a href="/assets/docs/karam-hariri_CV.pdf" class="btn btn--primary btn--large" download>
-    <i class="fas fa-file-download"></i> Download PDF
+<div class="resume-image-container">
+  <img src="/assets/images/Karam_Hariri_CV.png" alt="Karam Hariri Resume" style="width: 100%; border-radius: 4px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+</div>
+
+<div style="text-align: center; margin-top: 30px; margin-bottom: 50px;">
+  <a href="/assets/images/karam-hariri_CV.pdf" class="btn btn--primary btn--large">
+    <i class="fas fa-file-download"></i> Download Official PDF
   </a>
 </div>
 
 <style>
-  .resume-container {
-    width: 100%;
-    height: 1050px;
-    margin-top: 20px;
+  .resume-image-container {
+    max-width: 900px; /* Limits width so it doesn't look giant on huge monitors */
+    margin: 0 auto;
+    border: 1px solid #ddd;
   }
 
-  /* Back Button styling to match your projects */
   .btn-back {
     position: fixed; 
-    top: 100px;
+    top: 80px;
     left: 20px;
     background-color: rgba(18, 18, 18, 0.8); 
     color: #fff !important;
@@ -56,9 +56,6 @@ author_profile: false
   }
 
   @media (max-width: 768px) {
-    .resume-container {
-      height: 600px;
-    }
     .btn-back {
       top: 10px;
       left: 10px;
