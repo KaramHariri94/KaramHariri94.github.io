@@ -10,34 +10,56 @@ toc_icon: "gamepad"
 # --- GALLERY CONFIGURATION ---
 # Add your screenshots here. They will appear at the bottom.
 gallery:
-  - url: /assets/images/project1-thumb.jpg
-    image_path: /assets/images/project1-thumb.jpg
+  - url: /assets/images/graceboundscreenshot1.png
+    image_path: /assets/images/graceboundscreenshot1.png
     alt: "Gameplay Moment 1"
-  - url: /assets/images/project1-thumb.jpg
-    image_path: /assets/images/project1-thumb.jpg
+  - url: /assets/images/graceboundscreenshot2.png
+    image_path: /assets/images/graceboundscreenshot2.png
     alt: "Gameplay Moment 2"
-  - url: /assets/images/project1-thumb.jpg
-    image_path: /assets/images/project1-thumb.jpg
+  - url: /assets/images/graceboundscreenshot3.png
+    image_path: /assets/images/graceboundscreenshot3.png
     alt: "Gameplay Moment 3"
+  - url: /assets/images/graceboundscreenshot4.png
+    image_path: /assets/images/graceboundscreenshot4.png
+    alt: "Gameplay Moment 4"
 ---
 
 <a href="/" class="btn-back">
   <i class="fas fa-arrow-left"></i> Back
 </a>
 
-<br>
-
+<div class="video-container">
+  <video 
+    autoplay 
+    muted 
+    loop 
+    playsinline 
+    controls 
+    poster="/assets/images/gracebound_thumbnail.png"
+    class="custom-video">
+    <source src="/assets/videos/GraceboundVideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 <br>
 
 ## What I Worked On
 
-Modular AI Architecture: I engineered a scalable AI system using a custom Behavior Tree. I created a Base Enemy Class that has the common behavior between the different types which specific archetypes (Melee, Ranged, Explosive) inherit from and override their unique behaviors. To empower design iteration, I decoupled stats from logic using ScriptableObjects, allowing designers to create different types of the same enemy with different stats. I also integrated the animation state machines for all enemy types to ensure fluid combat feedback
+Modular AI Architecture: I engineered a scalable AI system using a custom Behavior Tree. I created a Base Enemy Class that has the common behavior between the different types which specific archetypes (Melee, Ranged, Explosive) inherit from and override their unique behaviors.
 
-Tactical Positioning System (EQS) To prevent enemies from "stacking" or forming a conga line, I implemented a custom Environmental Query System. Instead of pathfinding directly to the player, enemies identify and reserve Tactical Slots around the player. This forces the AI to flank and surround the target, creating dynamic pressure and encouraging player movement.
+Animation Integration: I integrated the animation state machines for all archetypes, ensuring that logic states (like "Stunned" or "Attacking") stayed perfectly synced with visual feedback.
 
-Combat Director (Token System) I developed a global manager that controls combat pacing. This system uses an Attack Token Pool to limit how many enemies can strike simultaneously, preventing the player from being unfairly overwhelmed while maintaining high encounter intensity.
+Data-Driven Design: To empower rapid iteration, I decoupled gameplay stats from logic using ScriptableObjects. This allowed designers to create multiple variants of the same enemy type with different difficulty levels without touching code.
 
-Camera Occlusion & Animation I implemented a raycast-based occlusion system that detects geometry between the camera and the character, fading out walls or obstacles to keep the view clear.
+Tactical Positioning System (EQS): To prevent enemies from "stacking" or forming a conga line, I implemented a custom Environmental Query System. Instead of pathfinding directly to the player, enemies identify and reserve Tactical Slots around the player. This forces the AI to flank and surround the target, creating dynamic pressure and encouraging player movement.
+
+Combat Director (Token System): I developed a global manager that controls combat pacing. This system uses an Attack Token Pool to limit how many enemies can strike simultaneously, preventing the player from being unfairly overwhelmed while maintaining high encounter intensity.
+
+Modular Enemy Spawner: I developed a designer-friendly spawner system that supports both Time-Based and Clear-Based waves. Designers can customize enemy types, wave counts, and spawn locations (either within a defined radius or at specific designated points).
+
+Object Pooling: To ensure stable performance during high-intensity waves, the spawner utilizes a custom Object Pooler. This minimizes CPU spikes by recycling enemy actors instead of constantly instantiating and destroying them.
+
+Camera Occlusion: I implemented a raycast-based occlusion system that detects geometry between the camera and the character, fading out walls or obstacles to keep the view clear.
 
 <br>
 
@@ -46,24 +68,23 @@ Camera Occlusion & Animation I implemented a raycast-based occlusion system that
 {% include gallery caption="Screenshots from Gracebound" %}
 
 <style>
-  /* Makes the video responsive and centered */
   .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
-    overflow: hidden;
+    width: 100%;
     max-width: 100%;
     background: #000;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    overflow: hidden;
+    /* This ensures the container holds the 16:9 shape before the video loads */
+    aspect-ratio: 16 / 9; 
   }
-  
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+
+  .custom-video {
     width: 100%;
     height: 100%;
+    display: block;
+    object-fit: cover; /* Ensures the video fills the area nicely */
   }
 
   /* Optional: Make the headers pop a bit more */
