@@ -6,6 +6,6 @@ main:
   - title: "Projects"
     url: "/#projects"
   - title: "Resume"
-    url: "/assets/resume.pdf"
+    url: "resume"
   - title: "Contact"
     url: "/#footer"

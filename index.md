@@ -11,7 +11,10 @@ introduction:
       I am a Generalist Engineer with a passion for System Architecture. I don't just implement features; I build the ecosystems they live in.<br />
       My approach combines Modular AI that brings characters to life without tangling the codebase, Scalable Gameplay systems designed to grow from prototype to production, and custom Pipeline Tools that empower designers to iterate faster. I focus on writing clean, decoupled code that ensures the game is as fun to develop as it is to play.
       <br><br>
-      <br>
+      <a href="/assets/images/Karam_Hariri_CV.pdf" class="btn btn--info btn--large" target="_blank">
+      <i class="fas fa-file-download"></i> Download Resume (PDF)
+      </a>
+      <br><br>
       <div class="tech-stack">
         <img src="https://cdn.simpleicons.org/unrealengine/white" title="Unreal Engine" />
         
@@ -205,13 +208,20 @@ project_CastByLight:
 </div>
 
 <div id="projects" class="container">
-  <h2 style="text-align: center; margin-top: 50px;">School Projects</h2>
+  <h2 style="text-align: center; margin-top: 50px;">Selected Projects</h2>
   
   {% include feature_row id="project_Gracebound" type="left" %}
   <hr>
   {% include feature_row id="project_AmorExMachina" type="right" %}
    <hr>
   {% include feature_row id="project_CastByLight" type="left" %}
+</div>
+
+<div style="text-align: center; margin: 60px 0;">
+  <h3>Interested in working together?</h3>
+  <a href="mailto:karam.hariri@outlook.com" class="btn btn--success btn--large">
+    <i class="fas fa-paper-plane"></i> Get in Touch
+  </a>
 </div>
 
 
