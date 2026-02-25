@@ -28,7 +28,7 @@ author_profile: false
 
   .btn-back {
     position: fixed; 
-    top: 80px;
+    top: 100px;
     left: 20px;
     background-color: rgba(18, 18, 18, 0.8); 
     color: #fff !important;
