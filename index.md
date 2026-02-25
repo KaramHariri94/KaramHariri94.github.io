@@ -11,7 +11,7 @@ introduction:
       I am a Generalist Engineer with a passion for System Architecture. I don't just implement features; I build the ecosystems they live in.<br />
       My approach combines Modular AI that brings characters to life without tangling the codebase, Scalable Gameplay systems designed to grow from prototype to production, and custom Pipeline Tools that empower designers to iterate faster. I focus on writing clean, decoupled code that ensures the game is as fun to develop as it is to play.
       <br><br>
-      <a href="/assets/images/Karam_Hariri_CV.pdf" class="btn btn--info btn--large" target="_blank">
+      <a href="/assets/images/karam-hariri_CV.pdf" class="btn btn--info btn--large" target="_blank">
       <i class="fas fa-file-download"></i> Download Resume (PDF)
       </a>
       <br><br>

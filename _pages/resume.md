@@ -11,7 +11,7 @@ author_profile: false
 
 <div class="resume-container">
   <iframe 
-    src="/assets/images/Karam_Hariri_CV.pdf" 
+    src="/assets/images/karam-hariri_CV.pdf" 
     width="100%" 
     height="1000px" 
     style="border: none; border-radius: 8px; box-shadow: 0 0 20px rgba(0,0,0,0.2);">
@@ -19,7 +19,7 @@ author_profile: false
 </div>
 
 <div style="text-align: center; margin-top: 30px;">
-  <a href="/assets/docs/Karam_Hariri_CV.pdf" class="btn btn--primary btn--large" download>
+  <a href="/assets/docs/karam-hariri_CV.pdf" class="btn btn--primary btn--large" download>
     <i class="fas fa-file-download"></i> Download PDF
   </a>
 </div>
@@ -34,7 +34,7 @@ author_profile: false
   /* Back Button styling to match your projects */
   .btn-back {
     position: fixed; 
-    top: 80px;
+    top: 100px;
     left: 20px;
     background-color: rgba(18, 18, 18, 0.8); 
     color: #fff !important;
